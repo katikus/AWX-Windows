@@ -1,4 +1,5 @@
 - name: PowerShell Directory Test and File Create
+  hosts: all
   win_shell: |
     $value = Test-Path -Path C:\windows\temp
     if ($value) {

@@ -1,0 +1,2 @@
+- name: Run remote PowerShell Script
+  win_command: powershell.exe -ExecutionPolicy ByPass -File C:/temp/powershellscript.ps1
